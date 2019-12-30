@@ -1,0 +1,30 @@
+body{background-color: #f7f9fd;}
+a:hover { background-color: hsla(0, 0%, 0%, 0.2); color: rgba(255, 255, 255, 0.75); transition: all 1s;}
+.scroll {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+  }
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  margin-top: 50px;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.correct {
+  background-color: #289a27;
+}
+
+.incorrect {
+  background-color: #c41a21;
+}
+
+.buttons {
+  padding: 10px 10px 10px 0;
+}

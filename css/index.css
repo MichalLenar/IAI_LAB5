@@ -1,0 +1,20 @@
+li {
+  display: inline-flex;
+}
+
+le{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+ls{
+  display: inline-list-item;
+  position: fixed;
+  right: 20px;
+  color: #8a8b08;
+  list-style-type:none;
+  transition: .5s;
+  font-family: sans-serif;
+  cursor: pointer;
+
+}
